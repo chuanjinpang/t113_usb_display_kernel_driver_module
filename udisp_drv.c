@@ -48,7 +48,7 @@ USB_GADGET_COMPOSITE_OPTIONS();
 
 #define DRIVER_VERSION		"Cinco de Mayo 2008"
 
-static const char longname[] = "t113udisp1_R480x480_Ejpg5_Ergb16_Ergb32";
+static const char longname[] = "t113_R480x480_Ejpg6_Fps60_Bl300";
 
 /*
  * Normally the "loopback" configuration is second (index 1) so
@@ -76,7 +76,7 @@ static struct usb_udisp_options UDISP_options = {
  * Instead:  allocate your own, using normal USB-IF procedures.
  */
 #define DRIVER_VENDOR_NUM	0x303a		/* NetChip */
-#define DRIVER_PRODUCT_NUM	0x2986		/* Linux-USB "Gadget udisp" */
+#define DRIVER_PRODUCT_NUM	0x2987		/* Linux-USB "Gadget udisp" */
 #define DEFAULT_AUTORESUME	0
 
 /* If the optional "autoresume" mode is enabled, it provides good
